@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header Section -->
+  <header class="bg-blue-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">EhisBlog</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:underline">Home</a></li>
+          <li><a href="#" class="hover:underline">About</a></li>
+          <li><a href="#" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Featured Posts Section -->
+  <section class="container mx-auto py-8">
+    <h2 class="text-xl font-bold mb-4">Featured Posts</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <img src="https://images.pexels.com/photos/247314/pexels-photo-247314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Post Image" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-lg mb-2">Women and Esteem</h3>
+          <p class="text-gray-600">This is a short excerpt for the first featured post.</p>
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <img src="https://greator.com/wp-content/uploads/2022/07/shutterstock_2139522769-768x468.jpg.webp" alt="Post Image" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-lg mb-2">Welcome Men inbetween 2</h3>
+          <p class="text-gray-600">This is a short excerpt for the second featured post.</p>
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <img src="https://assets.teenvogue.com/photos/62a8b3c84fe8681b4e0392c6/16:9/w_2240,c_limit/GettyImages-1164938789.jpg" alt="Post Image" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-lg mb-2">Tales of a Teenager queer</h3>
+          <p class="text-gray-600">This is a short excerpt for the third featured post.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Section -->
+  <section class="container mx-auto py-8">
+    <h2 class="text-xl font-bold mb-4">Categories</h2>
+    <div class="flex space-x-4">
+      <span class="bg-blue-100 text-blue-600 px-4 py-2 rounded-full">Tech</span>
+      <span class="bg-green-100 text-green-600 px-4 py-2 rounded-full">Lifestyle</span>
+      <span class="bg-purple-100 text-purple-600 px-4 py-2 rounded-full">Travel</span>
+    </div>
+  </section>
+
+  <!-- Recent Posts Section -->
+  <section class="container mx-auto py-8">
+    <h2 class="text-xl font-bold mb-4">Recent Posts</h2>
+    <ul class="space-y-4">
+      <li class="flex justify-between items-center bg-white p-4 rounded-lg shadow-md">
+        <span class="font-medium">Make it Rain</span>
+        <span class="text-gray-500 text-sm">Dec 10, 2024</span>
+      </li>
+      <li class="flex justify-between items-center bg-white p-4 rounded-lg shadow-md">
+        <span class="font-medium">Love is for loosers</span>
+        <span class="text-gray-500 text-sm">Dec 11, 2024</span>
+      </li>
+      <li class="flex justify-between items-center bg-white p-4 rounded-lg shadow-md">
+        <span class="font-medium">Welcome to  Santa Island</span>
+        <span class="text-gray-500 text-sm">Dec 12, 2024</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Newsletter Subscription Form -->
+  <section class="container mx-auto py-8 bg-blue-100 p-6 rounded-lg">
+    <h2 class="text-xl font-bold mb-4">Subscribe to our Newsletter</h2>
+    <form class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+      <input type="email" placeholder="Enter your email" class="p-2 rounded-lg border border-gray-300 flex-1">
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+      <p>&copy; 2024 EhisBlog. All Rights Reserved.</p>
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-blue-400">Facebook</a>
+        <a href="#" class="hover:text-blue-400">Twitter</a>
+        <a href="#" class="hover:text-blue-400">Instagram</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
